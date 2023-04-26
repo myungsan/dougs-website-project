@@ -10,7 +10,7 @@ body {
     height: 100%;
 }
 
-#member-introduction, #history {
+.buttons {
     margin-left: 4px;
     margin-right:4px;
     margin-top: 30px;

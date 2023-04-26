@@ -1,56 +1,27 @@
 body {
-    text-align: center;
-    font-family: 'Happy Monkey', cursive;
-        /* gradient */
-    background: linear-gradient(beige, lavender);
-    color: #f8f7ff;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h1, h2, h4, p {
-    text-shadow: 0px 0px 1px black; /*adding a outline of the text for readability*/
+.poster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-#bella-img {
+.avatar {
     width: 150px;
-    border-radius: 50%;   /* roundimage */
-    border: 6px solid #ffd8be;
 }
 
-#bernese {
-    width: 300px;
-    height: 300px;
-}
+.card {
+    width: 400px;
 
-.dog-info {
-    display: flex; /*sets every element to horizontally line up, on own column*/
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.role {
-    background: #ffd8be;
-    padding: 5px 10px;
-    border-radius: 5px;
-    margin: 5px 0 10px 0;
-}
-
-.info {
-    margin: 0;
-    background: #ffd8be;
-    padding: 5px 10px;
-    border-radius: 5px;
-}
-
-.header {
-    display: flex; /*sets every element to horizontally line up, on own column*/
-    /* flex-direction: column;  */
-    align-items: center;
-}
-
-.person-info {
-    display: flex; /*sets every element to horizontally line up, on own column*/
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #fefae0;
+    color: #283618;
+    border-bottom: 6px solid #dda15e;
 }
