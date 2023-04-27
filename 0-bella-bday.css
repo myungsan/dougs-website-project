@@ -1,0 +1,90 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+        /* gradient */
+    background: linear-gradient(lavender, #b8c0ff);
+    color: #f8f7ff;
+}
+
+h1, h2, h4, p {
+    text-shadow: 0px 0px 1px black; /*adding a outline of the text for readability*/
+}
+
+#bella-img {
+    width: 150px;
+    border-radius: 50%;   /* roundimage */
+    border: 6px solid #ffd8be;
+}
+
+#bday-age {
+    background: #ffd8be;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #ffd8be;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex; /*sets every element to horizontally line up, on own column*/
+    flex-direction: column; /*now change into column*/
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+/* The more specific is needed, put it above */
+#gift-img-gatsby {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 0 auto;
+    background-image: url("gift.png");
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("vitaliy.jpeg");
+}
+
+#gift-img-sweet:hover {
+    background-image: url("sweet.jpeg");
+}
+
+#gift-img-warm:hover {
+    background-image: url("warm.jpeg");
+}
+
+#gift-img-teehee:hover {
+    background-image: url("teehee.jpeg");
+}
+
+#gift-img-gatsby:hover {
+    background-image: url("gatsby.gif");
+}
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40 auto 20px;
+}
+
+a {
+    color: white;
+}

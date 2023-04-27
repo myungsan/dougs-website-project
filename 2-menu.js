@@ -6,4 +6,8 @@ function onClickHistory() {
     window.location.href = "https://quiver-ceiling-a5b.notion.site/History-9f096f2e7b1c4891a2a24295f0a0c9e6";
     }
 
+function onClickCore() {
+    window.location.href = "https://quiver-ceiling-a5b.notion.site/History-9f096f2e7b1c4891a2a24295f0a0c9e6";
+    }
+    
     
